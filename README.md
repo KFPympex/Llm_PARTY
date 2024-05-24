@@ -24,3 +24,8 @@ curl http://localhost:11434/api/generate -d '{
   "prompt": "por qué el cielo es azúl?",
   "stream": false
 }'
+
+## 6. para gaurdar los archivos nuevos en el repositorio
+---git add .---
+---git commit -m "UPDATE README"---
+---git push -u origin main---
