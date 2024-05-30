@@ -1,13 +1,16 @@
 import requests
+import json
 
-url = 'http://127.0.0.1:11434/api/generate'
-myobj= {
-"model": "tinyllama",
-  "prompt": "por qué el cielo es azúl?",
+uri = 'http://localhost:11434/api/generate'
+data= {
+  "model": "tinyllama",
+  "prompt": "why is the sky blue?",
   "stream": False
   }
 
 
-x = requests.post(url, json = myobj)
+response = requests.post(uri, json = data)
 
-print(x.text)
+response = json.loads(response.text)
+
+print(response['response'])
