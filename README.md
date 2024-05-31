@@ -1,7 +1,7 @@
 # Party-Llm
 
 ## 1. Instalacion de ollama
----curl -fsSL https://ollama.com/install.sh | sh #---
+---curl -fsSL https://ollama.com/install.sh | sh---
 
 ## 2. Ejecutar el servidor
 ---ollama serve---
@@ -39,4 +39,4 @@ https://www.w3schools.com/python/module_requests.asp
 
 ## 9. comando para leer imagenes
 pdw
-pregunta? /workspace/Party-Llm/imagen.jpg
+```pregunta?```/workspace/Party-Llm/````imagen.jpg```
